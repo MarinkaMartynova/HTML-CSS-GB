@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; 
+    /*все отступы загоняет в бокс с определенным размером и подгоняет под него все элементы - нужно это учитывать*/
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #020A18;
+    color: #FFF;
+}
+
+.header {
+    margin-bottom: 160px;
+}
+
+.container {
+    width: 1146px;
+    margin: 0 auto;
+}
+
+.header-link {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;    
+    font-weight: 600;
+    padding: 40px 16px;
+
+}
+
+.header-link:hover {
+    color: #3A68B8;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    margin-bottom: 197px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-left, .main-right {
+    width: 47%;
+}
+
+.subtitle {
+    color: #3A68B8;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%; /*   28.8px */
+    text-transform:     uppercase;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 130%; /* 71.5px */
+    margin-bottom: 40px;
+}
+
+.description {
+    color: #FFF;
+    opacity: 0.7;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%; /* 28.8px */
+    margin-bottom: 50px;
+}
+
+.main-link {
+    padding: 1rem 2rem;
+    background-color: #3A68B8;
+    color: #fff;
+    border-radius: 5px;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.logos {
+    margin-bottom: 256px;
+}
+
+.info {
+    margin-bottom: 264px;
+}
+
+.info-title {
+    padding-top: 110px;
+    margin-bottom: 30px;
+    width: 484px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%; /* 52px */
+}
+
+.info-text {
+    width: 460px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%; /* 25.6px */
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+
+.info-btn {
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 5px;
+    background: #3A68B8;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.motion {
+    margin-bottom: 243px;
+}
+
+.motion_card {
+    width: 362px;
+    height: 389px;
+    flex-shrink: 0;
+    border-radius: 10px;    
+    background-color: rgba(255, 255, 255, 0.098);    
+}
+
+.motion-img{
+    padding: 30px 132px;
+}
+
+.motion-title {
+    width: 302px;
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 31.25px */
+    opacity: 0.7;  
+    padding-left: 30px;   
+    padding-right: 30px;   
+    margin-bottom: 30px;    
+}
+
+.motion-text {
+    width: 302px;
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 25.6px */ 
+    opacity: 0.7;  
+    padding-left: 30px;   
+    padding-right: 30px;   
+    margin-bottom: 30px; 
+}
+
+.reviews {
+    margin-bottom: 221px;
+}
+
+.reviews-title{
+    width: 548px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%; /* 52px */ 
+    margin-bottom: 40px;   
+}
+
+.reviews-text {
+    width: 460px;
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%; /* 25.6px */
+    margin-bottom: 20px;
+    opacity: 0.7;
+}
+
+
+.contacts-block {
+    width: 362px;      
+}
+
+.group-icon {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.contacts-subtitle {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 33px;
+}
+
+.info-text {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.about-text {
+    width: 261px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: normal;  
+    opacity: 0.6; 
+    margin-bottom: 24px; 
+}
+
+.contacts-block-site {
+    margin-bottom: 24px;
+}
+
